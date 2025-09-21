@@ -27,6 +27,75 @@ Se till att när man klickar på submit-knappen i formuläret så ska tack.html 
 </head>
 
 <body>
+<form action="tack.html">
+<fieldset>
+<legend>Basic info</legend>      
+<label for="fname">First name</label><br>
+<input type="text" id="fname" name="fname" value="Ange"><br>
+<label for="lname">Last name</label><br>
+<input type="text" id="lname" name="lname" value="Naja"><br>
+<label for="Dof">Date of birth</label><br>
+<input type="date" id="Dof" name="Dof"><br><br>
+</fieldset>
+<fieldset>
+<legend>Fun info</legend>
+<label>Favorite animal</label><br>
+<ul>
+<li>
+<label for="Cat">Cat</label>
+<input type="checkbox" id="Cat" name="Cat">
+</li>
+<li>
+<label for="Bunny">Bunny</label>
+<input type="checkbox" id="Bunny" name="Bunny">
+</li>
+<li>
+<label for="Dog">Dog</label>
+<input type="checkbox" id="Dog" name="Dog">
+</li>
+<li>
+<label for="Nota">None of the above</label>
+<input type="checkbox" id="Nota" name="Nota">
+</li>
+</ul>
+<br>
+<div>
+<label>Favorite season</label><br>
+<input type="radio" id="Spring" name="Season">
+<label for="Spring">Spring</label>
+</div>
+<div>
+<input type="radio" id="Summer" name="Season">
+<label for="Summer">Summer</label>
+</div>
+<div>
+<Input type="radio" id="Fall" name="Season">
+ <label for="Fall">Fall</label>
+</div>
+<div>
+<Input type="radio" id="Winter" name="Season">
+<label for="Winter">Winter</label>
+</div>
+<div>
+<br>
+<label>Favorite color</label>    
+<input type="color" name="color">
+</div>
+<br>
+<div>
+<label for="food">Favorite fast food</label>
+<select id="food" name="food">
+<option value="Mcdonalds">Mcdonalds</option>
+<option value="Burger king">Burger king</option>
+<option value="Max">Max</option>
+</select>
+</fieldset>
+<input type="submit" name="submit">
+</form>
+
+
+
+
 
 </body>
 
